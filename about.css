@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#main {
+  height: 100vh;
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(2, 0, 36, 1) 69%
+  );
+}
+
+.about {
+  padding-top: 40vh;
+  text-align: center;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.about p {
+  color: white;
+  font-family: "Satisfy", cursive;
+  font-size: 20px;
+}
+
+#copy {
+  padding-top: 5px;
+}
+
+.co {
+  text-align: center;
+}
