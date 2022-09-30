@@ -40,8 +40,7 @@ Follow these steps to make your very first Pull request.
 
 Everyone is not aware of every tool available in the world, no matter how simple or sophisticated it is. It's also not required to be familiar with every tool available. To add your own card, use the code below!
 
-<b>Code -</b> 
-
+```
          <div class="card mb-3" style="max-width: 578px">
           <div class="row g-0">
             <div class="col-md-4">
@@ -66,9 +65,20 @@ Everyone is not aware of every tool available in the world, no matter how simple
             </div>
           </div>
         </div>
+```
 
 Copy this code and paste it in the index.html file to make your changes. Try and test it on your own system and then create a Pull request. You can adjust height of image of character so that it will fit in card.
 
+After this you just have to add correct class color to the pokemon type by changing the existing "yellow" to respective class color.
+
+```
+   .yellow (Class name if the same color class doesn't exis) {
+      background-color: yellow (Change the color here);
+      width: 50%;
+      border-radius: 5px;
+      text-align: center;
+  }
+```   
 
 # Congratulations!
 
