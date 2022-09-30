@@ -1,6 +1,6 @@
 <img width="2295" alt="logo" src="images/readme.png">
 
-Hacktoberfest, in its 9th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects. You can do this in a variety of ways:
+In its ninth year, Hacktoberfest is a month-long celebration of open source software hosted by DigitalOcean. We welcome you to join open-source software enthusiasts, beginners, and the development community by contributing to open-source projects throughout the month of October. This can be accomplished in a variety of ways:
 
 * Prepare and share your project for collaboration
 * Contribute to the betterment of a project via pull requests
@@ -15,7 +15,7 @@ Hacktoberfest, in its 9th year, is a month-long celebration of open source softw
 # Pokemon
 <img width="2295"  height="504" alt="series image" src="https://i0.wp.com/www.gamerfocus.co/wp-content/uploads/2019/06/pokemon_collage.jpg?resize=1000%2C600&ssl=1">
 
-There is no doubt that most  of our childhood was spent watching anime especially Pokemon, we have seen and experienced it all. With Hacktoberfest 2021 coming up and being one of the people who would participate for the very first time, I decided to create this repository that's actually a very basic web-page that let the user view and add their favourite characters.
+There is no doubt that we spent the majority of our youth watching anime, particularly Pokemon; we have seen and experienced it all. With Hacktoberfest 2022 approaching and me being one of the first people as maintainer, I decided to make this repository, which is essentially a very basic web-page that allows the user to browse and upload their favourite characters.
 
 You can find all types characters on https://pokemon.gameinfo.io/
 # Contents of the Webpage
@@ -26,10 +26,10 @@ You can find all types characters on https://pokemon.gameinfo.io/
 
 # What can you contribute?
 
-There is always something to contribute to a project whether you are a novice or a veteran. In this project, you can add your favourite character as a card to the website! Or maybe you didn't like the line that you are reading right now and want to change that.Sure! Why not?
+Whether you are a rookie or a veteran, you can always offer something to a project. You may add your favourite character to the internet as a card in this project! Or perhaps you don't like the line you're reading right now and want to alter it. Sure! So why not?
 
 # How can you contribute?
-To contribute in Hacktoberfest2021 , checkout the given link and win hactoberfest t-shirt ...
+To contribute in Hacktoberfest2022 , checkout the given link and win hactoberfest t-shirt ...
 https://hacktoberfest.digitalocean.com/
 
 
@@ -38,30 +38,38 @@ Follow these steps to make your very first Pull request.
 
 # But what if i don't know how to add cards? :(
 
-Not everyone is aware of every tool present in the world no matter how easy or complex it is. It's also not necessary to know each and every tool out there. Use the code below to add the your own card!
+Everyone is not aware of every tool available in the world, no matter how simple or sophisticated it is. It's also not required to be familiar with every tool available. To add your own card, use the code below!
 
 <b>Code -</b> 
 
-                <!-- [character name] card start-->
-                <div class="card mb-3 card-bg my-4" style="max-width: 100%;">
-                  <div class="row no-gutters">
-                     <div class="col-md-4">
-                        <img src=[image-link] alt=[name of character] height="390px" width="300px">  
-                      </div>
-                      <div class="col-md-8">
-                       <div class="card-body">
-                          <h2 class="card-title">[name of character]</h2>
-                          <p class="card-text">[Main description about character]</p>
-                          <p>[some more description about character]</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!--[character name] card end-->
+         <div class="card mb-3" style="max-width: 578px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="images/pikachu.png"
+                class="img-fluid rounded-start"
+                alt="..."
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                data-aos-delay="60"
+                style="width: 100%"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Pokemon Name</h5>
+                <p class="card-text">
+                  Pokemon description
+                </p>
+                <p class="card-text yellow">Pokemon Type</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
 Copy this code and paste it in the index.html file to make your changes. Try and test it on your own system and then create a Pull request. You can adjust height of image of character so that it will fit in card.
 
 
 # Congratulations!
 
-Congratulation! You just made your first pull request and if it gets merged, you can view it using the Link provided above!
+Congratulation! You've just created your first pull request, and if it's merged, you may see it by clicking the link above!
