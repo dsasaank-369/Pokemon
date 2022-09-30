@@ -36,6 +36,13 @@ body {
   text-align: center;
 }
 
+.purple {
+  background-color: rgb(152, 60, 227);
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
 #copy {
   padding-top: 5px;
 }
@@ -43,3 +50,4 @@ body {
 .co {
   text-align: center;
 }
+
