@@ -36,6 +36,13 @@ body {
   text-align: center;
 }
 
+.purple {
+  background-color: #7038f8;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
 #copy {
   padding-top: 5px;
 }
