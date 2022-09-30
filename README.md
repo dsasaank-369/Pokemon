@@ -60,7 +60,7 @@ Everyone is not aware of every tool available in the world, no matter how simple
                 <p class="card-text">
                   Pokemon description
                 </p>
-                <p class="card-text yellow">Pokemon Type</p>
+                <p class="card-text electric">Pokemon Type</p>
               </div>
             </div>
           </div>
@@ -70,9 +70,17 @@ Everyone is not aware of every tool available in the world, no matter how simple
 Copy this code and paste it in the index.html file to make your changes. Try and test it on your own system and then create a Pull request. You can adjust height of image of character so that it will fit in card.
 
 After this you just have to add correct class color to the pokemon type by changing the existing "yellow" to respective class color.
+For correct colors refer the same website.
+
+Examples-
+![image](https://user-images.githubusercontent.com/80057285/193244873-b668e856-50c1-468d-874c-8a4c74788cad.png)
+![image](https://user-images.githubusercontent.com/80057285/193244942-4d1c7cd1-e642-44bf-b630-97ddae65f9b6.png)
+![image](https://user-images.githubusercontent.com/80057285/193245034-e13c6abd-c75f-4096-9596-4451cb037607.png)
+![image](https://user-images.githubusercontent.com/80057285/193245263-1cb63920-9c4f-4606-a55a-c554b3ff1a12.png)
+
 
 ```
-   .yellow (Class name if the same color class doesn't exis) {
+   .electric (Class name if the same color class doesn't exist) {
       background-color: yellow (Change the color here);
       width: 50%;
       border-radius: 5px;
