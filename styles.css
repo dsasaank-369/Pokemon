@@ -36,6 +36,13 @@ body {
   text-align: center;
 }
 
+.orange{
+    background-color: rgb(228, 93, 26);
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+}
+
 #copy {
   padding-top: 5px;
 }
