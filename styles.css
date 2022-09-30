@@ -35,6 +35,12 @@ body {
   border-radius: 5px;
   text-align: center;
 }
+.psychic {
+  background-color: #F85888;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
 
 #copy {
   padding-top: 5px;
