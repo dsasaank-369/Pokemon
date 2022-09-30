@@ -15,7 +15,7 @@ In its ninth year, Hacktoberfest is a month-long celebration of open source soft
 # Pokemon
 <img width="2295"  height="504" alt="series image" src="https://i0.wp.com/www.gamerfocus.co/wp-content/uploads/2019/06/pokemon_collage.jpg?resize=1000%2C600&ssl=1">
 
-There is no doubt that we spent the majority of our youth watching anime, particularly Pokemon; we have seen and experienced it all. With Hacktoberfest 2022 approaching and me being one of the first people as maintainer, I decided to make this repository, which is essentially a very basic web-page that allows the user to browse and upload their favourite characters.
+There is no doubt that we spent the majority of our youth watching anime, particularly Pokemon; we have seen and experienced it all. With Hacktoberfest 2022 approaching and me being one of the first people as maintainer, I decided to make this repository, which is essentially a very basic web-page that allows the user to browse and upload their favourite pokemons.
 
 You can find all types characters on https://pokemon.gameinfo.io/
 # Contents of the Webpage
