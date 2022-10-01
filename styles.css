@@ -36,6 +36,13 @@ body {
   text-align: center;
 }
 
+.psychic {
+  background-color: #F85888;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
 
 .water{
   background-color: #6890f0;
