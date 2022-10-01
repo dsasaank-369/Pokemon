@@ -37,7 +37,14 @@ body {
 }
 
 .purple {
-  background-color: #7038f8;
+  background-color: #b9a6f3;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.blue {
+  background-color: #8d60f9;
   width: 50%;
   border-radius: 5px;
   text-align: center;
