@@ -43,6 +43,12 @@ body {
   text-align: center;
 }
 
+.normal {
+  background-color: rgb(255, 154, 31);
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
 
 .purple {
   background-color: #b9a6f3;
