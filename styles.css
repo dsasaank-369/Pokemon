@@ -58,3 +58,9 @@ body {
   text-align: center;
 }
 
+.dragon {
+    background-color: deeppink;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+}
