@@ -36,14 +36,6 @@ body {
   text-align: center;
 }
 
-
-.water{
-  background-color: #6890f0;
-  width: 50%;
-  border-radius: 5px;
-  text-align: center;
-}
-
 .cyan {
   background-color: cyan;
   width: 50%;
@@ -60,13 +52,10 @@ body {
 
 .purple {
   background-color: #b9a6f3;
-
   width: 50%;
   border-radius: 5px;
   text-align: center;
 }
-
-
 
 .blue {
   background-color: #8d60f9;
