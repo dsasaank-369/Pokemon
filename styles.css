@@ -35,8 +35,48 @@ body {
   border-radius: 5px;
   text-align: center;
 }
+
 .psychic {
   background-color: #F85888;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.water{
+  background-color: #6890f0;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cyan {
+  background-color: cyan;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.normal {
+  background-color: rgb(255, 154, 31);
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.purple {
+  background-color: #b9a6f3;
+
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+
+.blue {
+  background-color: #8d60f9;
   width: 50%;
   border-radius: 5px;
   text-align: center;
@@ -49,3 +89,4 @@ body {
 .co {
   text-align: center;
 }
+
