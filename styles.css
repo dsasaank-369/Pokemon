@@ -36,9 +36,9 @@ body {
   text-align: center;
 }
 
-
-.water{
-  background-color: #6890f0;
+.black {
+  background-color: rgb(0, 0, 0);
+  color: #e3f2fd;
   width: 50%;
   border-radius: 5px;
   text-align: center;
@@ -51,22 +51,13 @@ body {
   text-align: center;
 }
 
-.normal {
-  background-color: rgb(255, 154, 31);
-  width: 50%;
-  border-radius: 5px;
-  text-align: center;
-}
 
 .purple {
   background-color: #b9a6f3;
-
   width: 50%;
   border-radius: 5px;
   text-align: center;
 }
-
-
 
 .blue {
   background-color: #8d60f9;
