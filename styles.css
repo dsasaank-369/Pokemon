@@ -75,6 +75,13 @@ body {
   text-align: center;
 }
 
+.white {
+  background-color: white;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
 #copy {
   padding-top: 5px;
 }
