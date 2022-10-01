@@ -1,60 +1,44 @@
-body {
-  /* height: 100vh; */
-  margin: 0;
-  overflow-x: hidden;
+.showcase {
+  width: 100%;
+  height: 85vh;      
+  background: url('/images/background1.png') no-repeat center center/cover;
 }
 
-#main {
-  background-image: url(images/main.jpg);
-  height: 114vh;
-  background-size: cover;
+.showcase::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
 }
 
-#charac {
-  padding: 20px;
-  background-color: #e3f2fd;
-}
-
-.info h1 {
+.navbar {
+  width: 100%;
   text-align: center;
-  font-size: 40px;
-  margin-bottom: 20px;
-  font-family: "Dancing Script", cursive;
+  border: 2px solid black;
+  background-color: black;
+  z-index: 2;
 }
-
-.card {
-  margin: 0 auto !important;
-  float: none !important;
-  padding: 15px !important;
-  margin-bottom: 20px !important;
-}
-
-.yellow {
-  background-color: yellow;
-  width: 50%;
-  border-radius: 5px;
+.text {
   text-align: center;
+  color: white;
 }
 
-.purple {
-  background-color: #b9a6f3;
-  width: 50%;
-  border-radius: 5px;
-  text-align: center;
+img {
+  border: 5px solid black;
 }
 
-.blue {
-  background-color: #8d60f9;
-  width: 50%;
-  border-radius: 5px;
-  text-align: center;
+.card-body {
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
 }
 
-#copy {
-  padding-top: 5px;
+.container {
+  width: 100%;
 }
 
-.co {
-  text-align: center;
-}
 

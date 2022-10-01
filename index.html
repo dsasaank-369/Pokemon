@@ -19,140 +19,68 @@
     <title>Pokemon</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Pokemon</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
+    <navbar class="navbar">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Pokemon</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="humanch.html">Human Character</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Me</a>
+        </li>
+      </ul>
+    </navbar>
+    <div class="showcase">
+      <p class="text">
+      </p>
+    </div>
+    <br/>
+    <div class="card mb-3">
+      <img src="/images/pikachu.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Pikachu</h4>
+        <p class="card-text">Pikachu is a small, chubby, and incredibly cute mouse-like Pokémon which is covered almost completely by yellow fur. It has long yellow ears that are tipped with black. A Pikachu's back has two brown stripes, and its large tail is notable for being shaped like a lightning bolt.</p>
       </div>
-    </nav>
+    </div>
 
-    <section id="main"></section>
+    <div class="card mb-3">
+      <img src="/images/bulbasaur.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title">Bulbasaur</h4>
+        <p class="card-text">Bulbasaur are small, squat amphibian and plant Pokémon that move on all four legs, and have blue-green bodies with darker blue-green spots.</p>
+          <p>As a Bulbasaur undergoes evolution into Ivysaur and then later into Venusaur, the bulb on its back blossoms into a large flower.The seed on a Bulbasaur's back is planted at birth and then sprouts and grows larger as the Bulbasaur grows.The bulb absorbs sunlight which allows it to grow, and for this reason, Bulbasaur enjoy soaking up the sun's rays.They can also survive for days without eating because the bulb stores energy.</p>
+      </div>
+    </div>
 
-    <section id="charac">
-      <div class="info">
-        <h1>Pokemons</h1>
+    <div class="card mb-3">
+      <img src="/images/charmander.jpg" class="card-img-top" alt="..." >
+      <div class="card-body">
+        <h4 class="card-title">Charmander</h4>
+        <p class="card-text">Charmander are small, bipedal lizard-like Pokémon native to Kanto. They have blue eyes, orange skin, three-toed clawed feet, yellow bellies, and a single yellow pad covering most of the soles of their feet.</p>
+        <p>The end of a Charmander's tail is alight with a flame, and the flame's size reflects both the physical health and the emotions of the individual.When it rains, steam is said to spout from the tip of its tail.If the flame were to ever go out, the Charmander would die.When Charmander receives enough experience from battles, it evolves into Charmeleon (at level 16 in the video games), and later Charizard</p>
       </div>
 
-      <div class="pokemon-cards">
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/pikachu.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Pikachu</h5>
-                <p class="card-text">
-                  Pikachu is an Electric Pokémon. It is vulnerable to Ground
-                  moves. Pikachu's strongest moveset is Thunder Shock & Wild
-                  Charge and it has a Max CP of 938. Pikachu evolves into
-                  Raichu.
-                </p>
-                <p class="card-text yellow">Electric</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/pidgeot.webp"
-                class="img-fluid rounded-start pidgeot-img"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Pidgeot</h5>
-                <p class="card-text">
-                  Pidgeot is a Normal & Flying Pokémon which evolves from
-                  Pidgeotto. It is vulnerable to Rock, Electric and Ice moves.
-                  Pidgeot's strongest moveset is Gust & Brave Bird and it has a
-                  Max CP of 2,129
-                </p>
-                <p class="card-text purple">Flying</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/rayquaza.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Rayquaza</h5>
-                <p class="card-text">
-                  Rayquaza is a legendary Dragon Pokémon. It is vulnerable to
-                  Ice, Rock, Dragon and Fairy moves. Rayquaza's strongest
-                  moveset is Dragon Tail & Outrage and it has a Max CP of 3,835.
-                </p>
-                <p class="card-text blue">Dragon</p>
-              </div>
-            </div>
-          </div>
+      <div class="card mb-3">
+        <img src="/images/squirtle.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Squirtle</h4>
+          <p class="card-text">Squirtle, known as the Tiny Turtle Pokémon, are turtle Pokémon with large eyes and chubby cheeks, capable of moving either on two feet or on all fours. Their skin is a light blue, and they possess a long, curled tail.</p>
+          <p>When feeling threatened, Squirtle withdraw their limbs into their brown-orange shells and spray water from their mouth with great force, either to attack their opponent or merely to intimidate it.If attacked anyway, their shells are resilient, and provide excellent protection. It shelters itself in its shell, then strikes back with spouts of water at every opportunity.Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.</p>
         </div>
       </div>
-    </section>
-    <section id="copy"><p class="co">© 2022 Sasaank</p></section>
-    <script>
-      AOS.init({ once: true });
-    </script>
+
+      <div class="card mb-3">
+        <img src="/images/Gengar.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Gengar</h4>
+          <p class="card-text">Gengar is a shadow-like, round-bodied Pokémon with two large, pointed ears and short spikes lining its back. Gengar has two red eyes and a toothy, sinister smile. It has claws on its hands.</p>
+          <p>Gengar are typically mean-spirited and enjoy tormenting people, hurting them and overtaking them. They are most active during full moons, creeping out in the dead of night and disguising themselves as shadows; they may even enters sleeping homes to lurk in the dark. They will mimic every movement their targets make until they lower their guards. Then, they strike, draining their victims' life force as sustenance.</p>
+        </div>
+      </div>
+
+    </div>
     <script src="app.js"></script>
   </body>
 </html>

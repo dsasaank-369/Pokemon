@@ -5,11 +5,11 @@ body {
 
 #main {
   height: 100vh;
-  background: rgb(9, 9, 121);
+  background: rgb(5, 120, 20);
   background: linear-gradient(
     90deg,
-    rgba(9, 9, 121, 1) 0%,
-    rgba(2, 0, 36, 1) 69%
+    rgb(35, 161, 52) 0%,
+    rgb(5, 74, 2) 60%
   );
 }
 
@@ -26,11 +26,5 @@ body {
   font-size: 20px;
 }
 
-#copy {
-  padding-top: 5px;
-}
 
-.co {
-  text-align: center;
-}
 
