@@ -29,6 +29,14 @@ body {
   margin-bottom: 20px !important;
 }
 
+.purple {
+  background-color: #b9a6f3;
+
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
 .yellow {
   background-color: yellow;
   width: 50%;
