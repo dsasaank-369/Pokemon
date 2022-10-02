@@ -97,6 +97,14 @@ body {
   color: white;
 }
 
+.fire{
+  background-color: #f08030;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
 #copy {
   padding-top: 5px;
 }
