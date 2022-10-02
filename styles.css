@@ -42,6 +42,7 @@ body {
   width: 50%;
   border-radius: 5px;
   text-align: center;
+  color: white;
 }
 
 .cyan {
@@ -56,6 +57,7 @@ body {
   width: 50%;
   border-radius: 5px;
   text-align: center;
+  color: white;
 }
 
 .purple {
@@ -64,6 +66,7 @@ body {
   width: 50%;
   border-radius: 5px;
   text-align: center;
+  color: white;
 }
 
 .purple {
@@ -72,6 +75,7 @@ body {
   width: 50%;
   border-radius: 5px;
   text-align: center;
+  color: white;
 }
 
 .light-blue {
@@ -87,10 +91,19 @@ body {
   width: 50%;
   border-radius: 5px;
   text-align: center;
+  color: white;
 }
 
 .fighting {
   background-color: #c02038;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
+.fire {
+  background-color: orange;
   width: 50%;
   border-radius: 5px;
   text-align: center;
