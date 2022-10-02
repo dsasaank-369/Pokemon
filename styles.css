@@ -66,6 +66,22 @@ body {
   text-align: center;
 }
 
+.purple {
+  background-color: #b9a6f3;
+
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.light-blue {
+  background-color: lightblue;
+
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
 
 
 .blue {
