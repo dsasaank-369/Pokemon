@@ -18,6 +18,9 @@ body {
   text-align: center;
   max-width: 60%;
   margin: 0 auto;
+  border: none;
+  outline: 0;
+  display: inline-block;
 }
 
 .about p {
