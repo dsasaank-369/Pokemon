@@ -105,3 +105,10 @@ body {
   text-align: center;
 }
 
+.electric {
+  background-color: #f979a0;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
