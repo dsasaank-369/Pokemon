@@ -19,9 +19,12 @@
     <title>Pokemon</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark"
+      style="background-color: #e3f2fd"
+    >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Pokemon</a>
+        <a class="navbar-brand" href="#" style="font-size: 1.7rem;">Pokemon</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -35,10 +38,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <li class="nav-item" style="font-size: 1.5rem;">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" style="font-size: 1.5rem;">
               <a class="nav-link" href="about.html">About</a>
             </li>
           </ul>
@@ -64,134 +67,115 @@
         <h1>Pokemons</h1>
       </div>
 
-      <div class="pokemon-cards">
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/pikachu.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Pikachu</h5>
-                <p class="card-text">
-                  Pikachu is an Electric Pokémon. It is vulnerable to Ground
-                  moves. Pikachu's strongest moveset is Thunder Shock & Wild
-                  Charge and it has a Max CP of 938. Pikachu evolves into
-                  Raichu.
-                </p>
-                <p class="card-text yellow">Electric</p>
-              </div>
+      <div class="pokemon-cards row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/pikachu.png"
+              class="card-img-top img-fluid rounded-start"
+              alt="..."
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="60"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Pikachu</h4>
+              <p class="card-text">
+                Pikachu is an Electric Pokémon. It is vulnerable to Ground
+                moves. Pikachu's strongest moveset is Thunder Shock & Wild
+                Charge and it has a Max CP of 938. Pikachu evolves into Raichu.
+              </p>
+              <p class="card-text yellow">Electric</p>
             </div>
           </div>
         </div>
 
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/pidgeot.webp"
-                class="img-fluid rounded-start pidgeot-img"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Pidgeot</h5>
-                <p class="card-text">
-                  Pidgeot is a Normal & Flying Pokémon which evolves from
-                  Pidgeotto. It is vulnerable to Rock, Electric and Ice moves.
-                  Pidgeot's strongest moveset is Gust & Brave Bird and it has a
-                  Max CP of 2,129
-                </p>
-                <p class="card-text purple">Flying</p>
-              </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/pidgeot.webp"
+              class="card-img-top img-fluid rounded-start pidgeot-img"
+              alt="..."
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="60"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Pidgeot</h4>
+              <p class="card-text">
+                Pidgeot is a Normal & Flying Pokémon which evolves from
+                Pidgeotto. It is vulnerable to Rock, Electric and Ice moves.
+                Pidgeot's strongest moveset is Gust & Brave Bird and it has a
+                Max CP of 2,129
+              </p>
+              <p class="card-text purple">Flying</p>
             </div>
           </div>
         </div>
 
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/squirtle.png"
-                class="img-fluid rounded-start pidgeot-img"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Squirtle</h5>
-                <p class="card-text">
-                  Squirtle, known as Zenigame in Japan, is a Pokémon species in
-                  Nintendo and Game Freak's Pokémon franchise. It was designed
-                  by Atsuko Nishida. It has max CP of 1069.
-                </p>
-                <p class="card-text cyan">Water</p>
-              </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/squirtle.png"
+              class="img-fluid rounded-start pidgeot-img"
+              alt="..."
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="60"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Squirtle</h4>
+              <p class="card-text">
+                Squirtle, known as Zenigame in Japan, is a Pokémon species in
+                Nintendo and Game Freak's Pokémon franchise. It was designed by
+                Atsuko Nishida. It has max CP of 1069.
+              </p>
+              <p class="card-text cyan">Water</p>
             </div>
           </div>
         </div>
 
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/eevee.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Eevee</h5>
-                <p class="card-text">
-                  Eevee is a Normal Pokémon. It evolves into Vaporeon when fed
-                  25 candies and it's Buddy Candy Distance is 5 km. Eevee's
-                  strongest moveset is Quick Attack & Body Slam and it has a Max
-                  CP of 1,100.
-                </p>
-                <p class="card-text normal">Normal</p>
-              </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="images/eevee.png"
+              class="img-fluid rounded-start"
+              alt="..."
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="60"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Eevee</h4>
+              <p class="card-text">
+                Eevee is a Normal Pokémon. It evolves into Vaporeon when fed 25
+                candies and it's Buddy Candy Distance is 5 km. Eevee's strongest
+                moveset is Quick Attack & Body Slam and it has a Max CP of
+                1,100.
+              </p>
+              <p class="card-text normal">Normal</p>
             </div>
           </div>
         </div>
 
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/rayquaza.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
+        <div class="col">
+          <div class="card h-100">
+                <img
+                  src="images/rayquaza.png"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="60"
+                  style="width: 100%"
+                />
+              
               <div class="card-body">
-                <h5 class="card-title">Rayquaza</h5>
+                <h4 class="card-title">Rayquaza</h4>
                 <p class="card-text">
                   Rayquaza is a legendary Dragon Pokémon. It is vulnerable to
                   Ice, Rock, Dragon and Fairy moves. Rayquaza's strongest
@@ -201,35 +185,77 @@
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/gible.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
+        
+          <div class="col">
+            <div class="card h-100">
+                <img
+                  src="images/gible.png"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="60"
+                  style="width: 100%"
+                />
+              
               <div class="card-body">
-                <h5 class="card-title">Gible</h5>
+                <h4 class="card-title">Gible</h4>
                 <p class="card-text">
-                  Gible is a small, bipedal dragon-like Pokémon that is primarily blue.
-                  It has a big mouth filled with sharp teeth,
-                  no neck, and arms that start at the outer edges of its jaws. 
-                  Gible strongest move is  Mud Shot & Dig and it has max cp of 1112
+                  Gible is a small, bipedal dragon-like Pokémon that is
+                  primarily blue. It has a big mouth filled with sharp teeth, no
+                  neck, and arms that start at the outer edges of its jaws.
+                  Gible strongest move is Mud Shot & Dig and it has max cp of
+                  1112
                 </p>
                 <p class="card-text blue">Dragon</p>
               </div>
             </div>
           </div>
-        </div>
+
+          <div class="col">
+            <div class="card h-100">
+                <img
+                  src="images/Bulbasaur.webp"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="60"
+                  style="width: 100%"
+                />
+              
+              <div class="card-body">
+                <h4 class="card-title">Bulbasaur</h4>
+                <p class="card-text">
+                  Bulbasaur is a Grass/Poison-type Pokémon. It is known as the 'Seed Pokémon'.Bulbasaur resembles a small amphibian/frog, but it bears three claws on each of its feet and has no tail. It also has large, red eyes and small, sharp teeth. Its skin is a light, turquoise color with dark, green spots. It has three claws on all four of its legs.
+                </p>
+                <p class="card-text grass">Grass</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+                <img
+                  src="images/Charmander.webp"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="60"
+                  style="width: 100%"
+                />
+              
+              <div class="card-body">
+                <h4 class="card-title">Charmander</h4>
+                <p class="card-text">
+                  Charmander is a small, bipedal, dinosaur-like Pokémon. Most of its body is colored orange, while its underbelly is a pale light-yellow color. It has four small fingers on each hand and three claws on each foot. Charmander, like its evolved forms, has a flame that constantly burns on the end of its tail. However, If the flame on Charmander's tail goes out, Charmander's life will come to an end.
+                </p>
+                <p class="card-text blue">Dragon</p>
+              </div>
+            </div>
+          </div>
+
       </div>
     </section>
     <section id="copy"><p class="co">© 2022 Sasaank</p></section>

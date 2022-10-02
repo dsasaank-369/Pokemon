@@ -91,11 +91,35 @@ body {
   text-align: center;
 }
 
+.grass {
+  background-color: #139d18;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
 #copy {
   padding-top: 5px;
 }
 
 .co {
   text-align: center;
+}
+
+p{
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+.card-image {
+  overflow: hidden;
+}
+
+.card-image img {
+  transition: all 1.2s ease;
+}
+
+.card-image:hover img {
+  transform: scale(1.5);
 }
 
