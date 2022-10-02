@@ -82,10 +82,15 @@ body {
   text-align: center;
 }
 
-
-
 .blue {
   background-color: #8d60f9;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.fighting {
+  background-color: #c02038;
   width: 50%;
   border-radius: 5px;
   text-align: center;
