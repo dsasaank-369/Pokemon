@@ -91,6 +91,14 @@ body {
   text-align: center;
 }
 
+.rock {
+  background-color: #b8a038;
+  color: #fff;
+  width: 50%;
+  text-align: center;
+  border-radius: 5px;
+}
+
 #copy {
   padding-top: 5px;
 }
