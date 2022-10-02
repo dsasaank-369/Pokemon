@@ -36,8 +36,47 @@ body {
   text-align: center;
 }
 
+
+.water{
+  background-color: #6890f0;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cyan {
+  background-color: cyan;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.normal {
+  background-color: rgb(255, 154, 31);
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
 .purple {
   background-color: #b9a6f3;
+
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.purple {
+  background-color: #b9a6f3;
+
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.light-blue {
+  background-color: lightblue;
+
   width: 50%;
   border-radius: 5px;
   text-align: center;
@@ -48,6 +87,14 @@ body {
   width: 50%;
   border-radius: 5px;
   text-align: center;
+}
+
+.fighting {
+  background-color: #c02038;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
 }
 
 #copy {
