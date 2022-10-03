@@ -36,8 +36,14 @@ body {
   text-align: center;
 }
 
+.orange {
+  background-color: rgb(228, 93, 26);
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
 
-.water{
+.water {
   background-color: #6890f0;
   width: 50%;
   border-radius: 5px;
@@ -120,4 +126,3 @@ body {
 .co {
   text-align: center;
 }
-
