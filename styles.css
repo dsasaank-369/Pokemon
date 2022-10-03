@@ -119,6 +119,14 @@ body {
   border-radius: 5px;
 }
 
+.brown {
+  background-color: #775544;
+  color: white;
+  width: 50%;
+  text-align: center;
+  border-radius: 5px;
+}
+
 #copy {
   padding-top: 5px;
 }
