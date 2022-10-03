@@ -1,16 +1,17 @@
 body {
   margin: 0;
   overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 #main {
   height: 100vh;
-  background: rgb(9, 9, 121);
-  background: linear-gradient(
-    90deg,
-    rgba(9, 9, 121, 1) 0%,
-    rgba(2, 0, 36, 1) 69%
-  );
+}
+@keyframes mymove {
+  from {background-color: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );}
+  to {background-color: linear-gradient(to right, #ff6e7f, #bfe9ff);}
+  to {background-color: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);}
 }
 
 .about {
@@ -33,4 +34,5 @@ body {
 .co {
   text-align: center;
 }
+
 
