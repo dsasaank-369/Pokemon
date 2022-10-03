@@ -2,6 +2,7 @@ body {
   /* height: 100vh; */
   margin: 0;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 #main {
@@ -34,67 +35,100 @@ body {
   width: 50%;
   border-radius: 5px;
   text-align: center;
+  cursor: pointer;
+  transition: transform 0.5s;
 }
 
-
+.yellow:hover
+{
+  transform: scale(1.2);
+}
 .water{
   background-color: #6890f0;
   width: 50%;
   border-radius: 5px;
   text-align: center;
+  cursor: pointer;
+  transition: transform 0.5s;
 }
-
+.water:hover
+{
+  transform: scale(1.2);
+}
 .cyan {
-  background-color: cyan;
+  background-color: #3cfbfb;
   width: 50%;
   border-radius: 5px;
   text-align: center;
+  cursor: pointer;
+  transition: transform 0.5s;
 }
-
+.cyan:hover
+{
+  transform: scale(1.2);
+}
 .normal {
-  background-color: rgb(255, 154, 31);
+  background-color: rgb(255 169 65);
   width: 50%;
   border-radius: 5px;
   text-align: center;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.normal:hover
+{
+  transform: scale(1.2);
 }
 
 .purple {
   background-color: #b9a6f3;
-
+  cursor: pointer;
   width: 50%;
   border-radius: 5px;
   text-align: center;
+  transition: transform 0.5s;
 }
-
-.purple {
-  background-color: #b9a6f3;
-
-  width: 50%;
-  border-radius: 5px;
-  text-align: center;
+.purple:hover
+{
+  transform: scale(1.2);
 }
-
 .light-blue {
   background-color: lightblue;
-
+  cursor: pointer;
   width: 50%;
   border-radius: 5px;
   text-align: center;
+  transition: transform 0.5s;
 }
-
+.light-blue:hover
+{
+  transform: scale(1.2);
+}
 .blue {
-  background-color: #8d60f9;
+  background-color: #6426f9;
   width: 50%;
   border-radius: 5px;
   text-align: center;
+  cursor: pointer;
+  transition: transform 0.5s;
 }
-
+.blue:hover
+{
+  transform: scale(1.2);
+}
 .fighting {
-  background-color: #c02038;
+  background-color: #dc0021;;
   width: 50%;
   border-radius: 5px;
   text-align: center;
   color: white;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.fighting:hover
+{
+  transform: scale(1.2);
 }
 
 .rock {
