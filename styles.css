@@ -48,13 +48,7 @@ body {
   width: 50%;
   border-radius: 5px;
   text-align: center;
-}
-
-.cyan {
-  background-color: cyan;
-  width: 50%;
-  border-radius: 5px;
-  text-align: center;
+  color: white;
 }
 
 .normal {
