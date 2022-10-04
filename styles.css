@@ -66,7 +66,7 @@ body {
 }
 
 .normal {
-  background-color: rgb(255, 154, 31);
+  background-color: rgb(139, 135, 135);
   width: 50%;
   border-radius: 5px;
   text-align: center;
@@ -126,3 +126,4 @@ body {
 .co {
   text-align: center;
 }
+
