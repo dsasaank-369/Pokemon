@@ -119,6 +119,14 @@ body {
   border-radius: 5px;
 }
 
+.fire {
+  background-color: #fd7d24;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
 #copy {
   padding-top: 5px;
 }
