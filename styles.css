@@ -126,3 +126,19 @@ body {
 .co {
   text-align: center;
 }
+
+.Ghost {
+  background-color: midnightblue;
+  color: white;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.Fire {
+  background-color: red;
+  color: white;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
