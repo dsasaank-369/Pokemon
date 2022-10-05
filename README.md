@@ -29,14 +29,14 @@ You can find all types characters on https://pokemon.gameinfo.io/
 Whether you are a rookie or a veteran, you can always offer something to a project. You may add your favourite character to the internet as a card in this project! Or perhaps you don't like the line you're reading right now and want to alter it. Sure! So why not?
 
 # How can you contribute?
-To contribute in Hacktoberfest2022 , checkout the given link and win hactoberfest t-shirt ...
+To contribute in Hacktoberfest2022, checkout the given link and win hacktoberfest t-shirt ...
 https://hacktoberfest.digitalocean.com/
 
 
 And That's It!
 Follow these steps to make your very first Pull request.
 
-# But what if i don't know how to add cards? :(
+# But what if I don't know how to add cards? :(
 
 Everyone is not aware of every tool available in the world, no matter how simple or sophisticated it is. It's also not required to be familiar with every tool available. To add your own card, use the code below!
 
@@ -90,7 +90,7 @@ Examples-
 
 # Congratulations!
 
-Congratulation! You've just created your first pull request, and if it's merged, you may see it by clicking the link above!
+Congratulations! You've just created your first pull request, and if it's merged, you may see it by clicking the link above!
 
-If you did liked my repository or idea, please star the repository.
+If you did like my repository or idea, please star the repository.
 Happy Learening :)
