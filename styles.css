@@ -36,8 +36,22 @@ body {
   text-align: center;
 }
 
+.green {
+  background-color: #2ade48;
+  color: #000;
+  width: 50%;
+  text-align: center;
+  border-radius: 5px;
+}
 
-.water{
+.orange {
+  background-color: rgb(228, 93, 26);
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.water {
   background-color: #6890f0;
   width: 50%;
   border-radius: 5px;
@@ -97,6 +111,22 @@ body {
   color: white;
 }
 
+.rock {
+  background-color: #b8a038;
+  color: #fff;
+  width: 50%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.psychic {
+  background-color: #f85888;
+  color: #fff;
+  width: 50%;
+  text-align: center;
+  border-radius: 5px;
+}
+
 #copy {
   padding-top: 5px;
 }
@@ -105,8 +135,24 @@ body {
   text-align: center;
 }
 
+
 .electric {
   background-color: #f979a0;
+
+.Ghost {
+  background-color: midnightblue;
+  color: white;
+
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+=======
+.Fire {
+  background-color: red;
+  color: white;
   width: 50%;
   border-radius: 5px;
   text-align: center;
