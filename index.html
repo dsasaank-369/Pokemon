@@ -1,273 +1,208 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico"  />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Square+Peg&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <title>Pokemon</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Pokemon</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Square+Peg&display=swap"
+    rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <title>Pokemon</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pokemon</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <section id="main"></section>
+  <section id="main"></section>
 
-    <section id="charac">
-      <div class="info">
-        <h1>Pokemons</h1>
-      </div>
+  <section id="charac">
+    <div class="info">
+      <h1>Pokemons</h1>
+    </div>
 
-      <div class="pokemon-cards">
+    <div class="pokemon-cards">
 
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/pikachu.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Pikachu</h5>
-                <p class="card-text">
-                  Pikachu is an Electric Pokémon. It is vulnerable to Ground
-                  moves. Pikachu's strongest moveset is Thunder Shock & Wild
-                  Charge and it has a Max CP of 938. Pikachu evolves into
-                  Raichu.
-                </p>
-                <p class="card-text yellow">Electric</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/igglybuff.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Igglybuff</h5>
-                <p class="card-text">
-                  Igglybuff is a Normal & Fairy Pokémon. 
-                  It is vulnerable to Poison and Steel moves. 
-                  Igglybuff's strongest moveset is Pound & Shadow Ball and it has a Max CP of 535. 
-                  Igglybuff evolves into Jigglypuff.
-                </p>
-                <p class="card-text purple">Fairy</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card mb-3" style="max-width: 578px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="images/ninetales.jpeg"
-                  class="img-fluid rounded-start"
-                  alt="..."
-                  data-aos="zoom-in"
-                  data-aos-duration="1000"
-                  data-aos-delay="60"
-                  style="width: 100%"
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Ninetales</h5>
-                  <p class="card-text">
-                    Ninetales is a Fire type Pokémon, which makes it weak against Ground, Rock and Water moves.
-                    The best moves for Ninetales are Fire Spin and Weather Ball and it has a Max CP of 2279.
-                  </p>
-                  <p class="card-text orange">Fire</p>
-                </div>
-              </div>
-            </div>
-         </div>
-
-         <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/Sandshrew.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Sandshrew</h5>
-                <p class="card-text">
-                  Sandshrew is a Ground Pokémon. It is vulnerable to Water, Grass and Ice moves. Sandshrew's strongest moveset is Mud Shot & Dig and it has a Max CP of 1,261. Sandshrew evolves into Sandslash.
-                </p>
-                <p class="card-text brown">Ground</p>
-              </div>
-            </div>
-          </div>
-       </div>
-
-         <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/Qwilfish.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Qwilfish</h5>
-                <p class="card-text">
-                  Qwilfish is a Water & Poison Pokémon. It is vulnerable to Ground, Electric and Psychic moves. Qwilfish's strongest moveset is Water Gun & Aqua Tail and it has a Max CP of 2,051.
-                </p>
-                <p class="card-text Water">Water</p>
-              </div>
-            </div>
-          </div>
-       </div>
-
-       <div class="card mb-3" style="max-width: 578px">
+      <div class="card mb-3" style="max-width: 578px">
         <div class="row g-0">
           <div class="col-md-4">
-            <img
-              src="images/Raichu.png"
-              class="img-fluid rounded-start"
-              alt="..."
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              data-aos-delay="60"
-              style="width: 100%"
-            />
+            <img src="images/pikachu.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+              data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Raichu</h5>
+              <h5 class="card-title">Pikachu</h5>
               <p class="card-text">
-                Raichu is an Electric Pokémon. It is vulnerable to Ground moves. Raichu's strongest moveset is Volt Switch & Wild Charge and it has a Max CP of 2,182.
+                Pikachu is an Electric Pokémon. It is vulnerable to Ground
+                moves. Pikachu's strongest moveset is Thunder Shock & Wild
+                Charge and it has a Max CP of 938. Pikachu evolves into
+                Raichu.
               </p>
               <p class="card-text yellow">Electric</p>
             </div>
           </div>
         </div>
-     </div>
+      </div>
 
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/jigglypuff.jpeg"
-                class="img-fluid rounded-start pidgeot-img"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Jigglypuff</h5>
-                <p class="card-text">
-                  Jigglypuff is a Normal & Fairy Pokémon which evolves from Igglybuff. It is vulnerable to Poison and Steel moves. Jigglypuff's strongest moveset is Pound & Dazzling Gleam and it has a Max CP of 724. Jigglypuff evolves into Wigglytuff.
-                </p>
-                <p class="card-text purple">Fairy</p>
-              </div>
+      <div class="card mb-3" style="max-width: 578px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/igglybuff.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+              data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Igglybuff</h5>
+              <p class="card-text">
+                Igglybuff is a Normal & Fairy Pokémon.
+                It is vulnerable to Poison and Steel moves.
+                Igglybuff's strongest moveset is Pound & Shadow Ball and it has a Max CP of 535.
+                Igglybuff evolves into Jigglypuff.
+              </p>
+              <p class="card-text purple">Fairy</p>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="pokemon-cards">
+      <div class="card mb-3" style="max-width: 578px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/ninetales.jpeg" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+              data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Ninetales</h5>
+              <p class="card-text">
+                Ninetales is a Fire type Pokémon, which makes it weak against Ground, Rock and Water moves.
+                The best moves for Ninetales are Fire Spin and Weather Ball and it has a Max CP of 2279.
+              </p>
+              <p class="card-text orange">Fire</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 578px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/Sandshrew.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+              data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Sandshrew</h5>
+              <p class="card-text">
+                Sandshrew is a Ground Pokémon. It is vulnerable to Water, Grass and Ice moves. Sandshrew's strongest
+                moveset is Mud Shot & Dig and it has a Max CP of 1,261. Sandshrew evolves into Sandslash.
+              </p>
+              <p class="card-text brown">Ground</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 578px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/Qwilfish.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+              data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Qwilfish</h5>
+              <p class="card-text">
+                Qwilfish is a Water & Poison Pokémon. It is vulnerable to Ground, Electric and Psychic moves. Qwilfish's
+                strongest moveset is Water Gun & Aqua Tail and it has a Max CP of 2,051.
+              </p>
+              <p class="card-text Water">Water</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 578px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/Raichu.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+              data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Raichu</h5>
+              <p class="card-text">
+                Raichu is an Electric Pokémon. It is vulnerable to Ground moves. Raichu's strongest moveset is Volt
+                Switch & Wild Charge and it has a Max CP of 2,182.
+              </p>
+              <p class="card-text yellow">Electric</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 578px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/jigglypuff.jpeg" class="img-fluid rounded-start pidgeot-img" alt="..." data-aos="zoom-in"
+              data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Jigglypuff</h5>
+              <p class="card-text">
+                Jigglypuff is a Normal & Fairy Pokémon which evolves from Igglybuff. It is vulnerable to Poison and
+                Steel moves. Jigglypuff's strongest moveset is Pound & Dazzling Gleam and it has a Max CP of 724.
+                Jigglypuff evolves into Wigglytuff.
+              </p>
+              <p class="card-text purple">Fairy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pokemon-cards">
         <div class="card mb-3" style="max-width: 578px">
           <div class="row g-0">
             <div class="col-md-4">
-              <img
-                src="images/pichu.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
+              <img src="images/pichu.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title">Pichu</h5>
                 <p class="card-text">
-                  Pichu is an Electric Pokémon. It is vulnerable to Ground moves. Pichu's strongest moveset is Thunder Shock & Thunderbolt and it has a Max CP of 473. Pichu evolves into Pikachu.
+                  Pichu is an Electric Pokémon. It is vulnerable to Ground moves. Pichu's strongest moveset is Thunder
+                  Shock & Thunderbolt and it has a Max CP of 473. Pichu evolves into Pikachu.
                 </p>
                 <p class="card-text yellow">Electric</p>
               </div>
@@ -278,15 +213,8 @@
         <div class="card mb-3" style="max-width: 578px">
           <div class="row g-0">
             <div class="col-md-4">
-              <img
-                src="images/pidgeot.jpeg"
-                class="img-fluid rounded-start pidgeot-img"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
+              <img src="images/pidgeot.jpeg" class="img-fluid rounded-start pidgeot-img" alt="..." data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -306,15 +234,8 @@
         <div class="card mb-3" style="max-width: 578px">
           <div class="row g-0">
             <div class="col-md-4">
-              <img
-                src="images/squirtle.png"
-                class="img-fluid rounded-start pidgeot-img"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
+              <img src="images/squirtle.png" class="img-fluid rounded-start pidgeot-img" alt="..." data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -333,21 +254,15 @@
         <div class="card mb-3" style="max-width: 578px">
           <div class="row g-0">
             <div class="col-md-4">
-              <img
-                src="images/jolteon.png"
-                class="img-fluid rounded-start pidgeot-img"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
+              <img src="images/jolteon.png" class="img-fluid rounded-start pidgeot-img" alt="..." data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title">Jolteon</h5>
                 <p class="card-text">
-                  Jolteon accumulates negative ions in the atmosphere to blast out 10,000-volt lightning bolts. If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes.
+                  Jolteon accumulates negative ions in the atmosphere to blast out 10,000-volt lightning bolts. If it is
+                  angered or startled, the fur all over its body bristles like sharp needles that pierce foes.
                 </p>
                 <p class="card-text yellow">Electric</p>
               </div>
@@ -358,15 +273,8 @@
         <div class="card mb-3" style="max-width: 578px">
           <div class="row g-0">
             <div class="col-md-4">
-              <img
-                src="images/eevee.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
+              <img src="images/eevee.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -386,15 +294,8 @@
         <div class="card mb-3" style="max-width: 578px">
           <div class="row g-0">
             <div class="col-md-4">
-              <img
-                src="images/rayquaza.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
+              <img src="images/rayquaza.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -413,15 +314,8 @@
         <div class="card mb-3" style="max-width: 578px">
           <div class="row g-0">
             <div class="col-md-4">
-              <img
-                src="images/onix.jpeg"
-                class="img-fluid rounded-start"
-                alt="Onix"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
+              <img src="images/onix.jpeg" class="img-fluid rounded-start" alt="Onix" data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -441,15 +335,8 @@
         <div class="card mb-3" style="max-width: 578px">
           <div class="row g-0">
             <div class="col-md-4">
-              <img
-                src="images/gible.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
+              <img src="images/gible.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -468,26 +355,200 @@
         </div>
 
         <div class="pokemon-cards">
+          <div class="card mb-3" style="max-width: 578px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/raticate.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                  data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Raticate</h5>
+                  <p class="card-text">
+                    Raticate is a Normal Pokémon which evolves from Rattata. It is vulnerable to Fighting moves.
+                    Raticate's strongest moveset is Quick Attack & Hyper Beam and it has a Max CP of 1,730.
+                  </p>
+                  <p class="card-text normal">Normal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card mb-3" style="max-width: 578px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/lucario.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                  data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Lucario</h5>
+                  <p class="card-text">
+                    Lucario is a Fighting & Steel Pokémon which evolves from Riolu.
+                    It is vulnerable to Fighting, Ground and Fire moves.
+                    Lucario's strongest moveset is Counter & Aura Sphere and it has a Max CP of 2,703.
+                    Lucario reads its opponent's feelings with its aura waves.
+                  </p>
+                  <p class="card-text fighting">Fighting</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 578px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/growlithe.jpeg" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                  data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Growlithe</h5>
+                  <p class="card-text">
+                    Growlithe is a Fire Pokémon. It is vulnerable to Ground, Rock and Water moves. Growlithe's strongest
+                    moveset is Ember & Flamethrower and it has a Max CP of 1,243. Growlithe evolves into Arcanine.
+                  </p>
+                  <p class="card-text orange">Fire</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 578px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/celebi.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                  data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">celebi</h5>
+                  <p class="card-text">
+                    Celebi is a mythical Psychic & Grass Pokémon. It is vulnerable to Bug, Flying, Poison, Ghost, Fire,
+                    Ice and Dark moves. Celebi's strongest moveset is Magical Leaf Fast & Leaf Storm and it has a Max CP
+                    of 3,265.
+                  </p>
+                  <p class="card-text blue">Grass</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 578px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/magikarp.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                  data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Magikarp</h5>
+                  <p class="card-text">
+                    Magikarp is a Water Pokémon. It is vulnerable to Grass and Electric moves.
+                    Magikarp's strongest moveset is Splash & Struggle and it has a Max CP of 274.
+                    Magikarp evolves into Gyarados.
+                  </p>
+                  <p class="card-text cyan">Water</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 578px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/Accelgor.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                  data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Accelgor</h5>
+                  <p class="card-text">
+                    It is a very fast Pokémon and attacks in ways similar to ninjas.It evolves from Shelmet when traded
+                    for a Karrablast, a Pokémon that evolves into Escavalier simultaneously. Neither evolves if at least
+                    one holds an Everstone during the trade.
+                  </p>
+                  <p class="card-text normal">Bug</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Bulbasaur -->
+          <div class="card mb-3" style="max-width: 578px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/bulbasaur.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                  data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Bulbasaur</h5>
+                  <p class="card-text">
+                    Bulbasaur is a Grass/Poison-type Pokémon species in Nintendo and Game Freak's Pokémon franchise. It
+                    is the first in the franchise's monster index, called a Pokédex.
+                  </p>
+                  <p class="card-text green">Grass</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 578px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/charmeleon.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                  data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Charmeleon</h5>
+                  <p class="card-text">
+                    Charmeleon is a Fire Pokémon which evolves from Charmander. It is vulnerable to Ground, Rock and
+                    Water moves. Charmeleon's strongest moveset is Fire Fang & Flamethrower and it has a Max CP of
+                    1,653. Charmeleon evolves into Charizard.
+                  </p>
+                  <p class="card-text orange">Fire</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 578px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/mudkip.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                  data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Mudkip</h5>
+                  <p class="card-text">
+                    Mudkip is a Water Pokémon. It is vulnerable to Grass and Electric moves. Mudkip's strongest moveset
+                    is Water Gun & Return and it has a Max CP of 1,128. Mudkip evolves into Marshtomp.
+                  </p>
+                  <p class="card-text water">Water</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Swanna-->
+
         <div class="card mb-3" style="max-width: 578px">
           <div class="row g-0">
             <div class="col-md-4">
-              <img
-                src="images/raticate.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
+              <img src="images/swanna.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Raticate</h5>
+                <h5 class="card-title">Swanna</h5>
                 <p class="card-text">
-                  Raticate is a Normal Pokémon which evolves from Rattata. It is vulnerable to Fighting moves. Raticate's strongest moveset is Quick Attack & Hyper Beam and it has a Max CP of 1,730.
+                  Swanna is a Water & Flying Pokémon which evolves from Ducklett. It is vulnerable to Electric and Rock
+                  moves. Swanna's strongest moveset is Water Gun & Hurricane and it has a Max CP of 2,088.
                 </p>
-                <p class="card-text normal">Normal</p>
+                <p class="card-text water">water</p>
               </div>
             </div>
           </div>
@@ -497,49 +558,16 @@
         <div class="card mb-3" style="max-width: 578px">
           <div class="row g-0">
             <div class="col-md-4">
-              <img
-                src="images/lucario.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
+              <img src="images/Charizard.png " class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
             </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Lucario</h5>
-                <p class="card-text">
-                  Lucario is a Fighting & Steel Pokémon which evolves from Riolu.
-                  It is vulnerable to Fighting, Ground and Fire moves.
-                  Lucario's strongest moveset is Counter & Aura Sphere and it has a Max CP of 2,703.
-                  Lucario reads its opponent's feelings with its aura waves.
-                </p>
-                <p class="card-text fighting">Fighting</p>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/growlithe.jpeg"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Growlithe</h5>
+                <h5 class="card-title">Charizard</h5>
                 <p class="card-text">
-                  Growlithe is a Fire Pokémon. It is vulnerable to Ground, Rock and Water moves. Growlithe's strongest moveset is Ember & Flamethrower and it has a Max CP of 1,243. Growlithe evolves into Arcanine.
+                  Charizard (Japanese: リザードン Lizardon) is a dual-type Fire/Flying Pokémon introduced in Generation I. It
+                  evolves from Charmeleon starting at level 36.
                 </p>
                 <p class="card-text orange">Fire</p>
               </div>
@@ -550,352 +578,112 @@
         <div class="card mb-3" style="max-width: 578px">
           <div class="row g-0">
             <div class="col-md-4">
-              <img
-                src="images/celebi.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
+              <img src="images/blastoise.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">celebi</h5>
+                <h5 class="card-title">Blastoise</h5>
                 <p class="card-text">
-                  Celebi is a mythical Psychic & Grass Pokémon. It is vulnerable to Bug, Flying, Poison, Ghost, Fire, Ice and Dark moves. Celebi's strongest moveset is Magical Leaf Fast & Leaf Storm and it has a Max CP of 3,265.
-                </p>
-                <p class="card-text blue">Grass</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/magikarp.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Magikarp</h5>
-                <p class="card-text">
-                  Magikarp is a Water Pokémon. It is vulnerable to Grass and Electric moves.
-                  Magikarp's strongest moveset is Splash & Struggle and it has a Max CP of 274.
-                  Magikarp evolves into Gyarados.
-                </p>
-                <p class="card-text cyan">Water</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/Accelgor.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Accelgor</h5>
-                <p class="card-text">
-                  It is a very fast Pokémon and attacks in ways similar to ninjas.It evolves from Shelmet when traded for a Karrablast, a Pokémon that evolves into Escavalier simultaneously. Neither evolves if at least one holds an Everstone during the trade.
-                </p>
-                <p class="card-text normal">Bug</p>
-              </div>
-            </div>
-          </div>
-        </div>
-<!-- Bulbasaur -->
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/bulbasaur.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Bulbasaur</h5>
-                <p class="card-text">
-                  Bulbasaur is a Grass/Poison-type Pokémon species in Nintendo and Game Freak's Pokémon franchise. It is the first in the franchise's monster index, called a Pokédex.
-                </p>
-                <p class="card-text green">Grass</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/charmeleon.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Charmeleon</h5>
-                <p class="card-text">
-                  Charmeleon is a Fire Pokémon which evolves from Charmander. It is vulnerable to Ground, Rock and Water moves. Charmeleon's strongest moveset is Fire Fang & Flamethrower and it has a Max CP of 1,653. Charmeleon evolves into Charizard.
-                </p>
-                <p class="card-text orange">Fire</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/mudkip.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Mudkip</h5>
-                <p class="card-text">
-                  Mudkip is a Water Pokémon. It is vulnerable to Grass and Electric moves. Mudkip's strongest moveset is Water Gun & Return and it has a Max CP of 1,128. Mudkip evolves into Marshtomp.
+                  Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can
+                  shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.
                 </p>
                 <p class="card-text water">Water</p>
               </div>
             </div>
           </div>
         </div>
-       </div>
-<!--Swanna-->        
-
-       <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/swanna.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Swanna</h5>
-                  <p class="card-text">
-                    Swanna is a Water & Flying Pokémon which evolves from Ducklett. It is vulnerable to Electric and Rock moves. Swanna's strongest moveset is Water Gun & Hurricane and it has a Max CP of 2,088.
-                  </p>
-                  <p class="card-text water">water</p>
-              </div>
-          </div>
-        </div>
-       </div>
-
-
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="images/Charizard.png "
-                  class="img-fluid rounded-start"
-                  alt="..."
-                  data-aos="zoom-in"
-                  data-aos-duration="1000"
-                  data-aos-delay="60"
-                  style="width: 100%"
-                />
-              </div>    
-              
-              <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Charizard</h5>
-                    <p class="card-text">
-                      Charizard (Japanese: リザードン Lizardon) is a dual-type Fire/Flying Pokémon introduced in Generation I. It evolves from Charmeleon starting at level 36.
-                    </p>
-                    <p class="card-text orange">Fire</p>
-                  </div>
-              </div>
-          </div>
-        </div>
-          
-      <div class="card mb-3" style="max-width: 578px">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img
-              src="images/blastoise.png"
-              class="img-fluid rounded-start"
-              alt="..."
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              data-aos-delay="60"
-              style="width: 100%"
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Blastoise</h5>
-              <p class="card-text">
-                Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.
-              </p>
-              <p class="card-text water">Water</p>
-            </div>
-          </div>
-        </div>
-      </div>
 
         <div class="card mb-3" style="max-width: 578px">
           <div class="row g-0">
             <div class="col-md-4">
-              <img
-                src="images/dragonair.jpeg"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
+              <img src="images/dragonair.jpeg" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title">Dragonair</h5>
                 <p class="card-text">
-                  Dragonair is a Dragon Pokémon which evolves from Dratini. It is vulnerable to Ice, Dragon and Fairy moves. Dragonair's strongest moveset is Dragon Breath & Dragon Pulse and it has a Max CP of 1,780. Dragonair evolves into Dragonite.
+                  Dragonair is a Dragon Pokémon which evolves from Dratini. It is vulnerable to Ice, Dragon and Fairy
+                  moves. Dragonair's strongest moveset is Dragon Breath & Dragon Pulse and it has a Max CP of 1,780.
+                  Dragonair evolves into Dragonite.
                 </p>
                 <p class="card-text blue">Dragon</p>
               </div>
             </div>
           </div>
         </div>
-<div class="card mb-3" style="max-width: 578px">
+        <div class="card mb-3" style="max-width: 578px">
           <div class="row g-0">
             <div class="col-md-4">
-              <img
-                src="images/greninja.png "
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
+              <img src="images/greninja.png " class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
             </div>
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title">Greninja</h5>
                 <p class="card-text">
-                  It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.
+                  It creates throwing stars out of compressed water. When it spins them and throws them at high speed,
+                  these stars can split metal in two.
                 </p>
                 <p class="card-text Blue">Water</p>
               </div>
-             </div>
             </div>
-           </div>
+          </div>
+        </div>
 
-          <div class="card mb-3" style="max-width: 578px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="images/mewtwo.png"
-                  class="img-fluid rounded-start"
-                  alt="Mewtwo"
-                  data-aos="zoom-in"
-                  data-aos-duration="1000"
-                  data-aos-delay="60"
-                  style="width: 100%"
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Mewtwo</h5>
-                  <p class="card-text">
-                    Mewtwo is a Psychic type Pokémon introduced in Generation 1. It is known as the Genetic Pokémon.
-                  </p>
-                  <p class="card-text psychic">Psychic</p>
-                </div>
+        <div class="card mb-3" style="max-width: 578px">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/mewtwo.png" class="img-fluid rounded-start" alt="Mewtwo" data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Mewtwo</h5>
+                <p class="card-text">
+                  Mewtwo is a Psychic type Pokémon introduced in Generation 1. It is known as the Genetic Pokémon.
+                </p>
+                <p class="card-text psychic">Psychic</p>
               </div>
             </div>
           </div>
+        </div>
       </div>
-      
+
       <div class="card mb-3" style="max-width: 578px">
         <div class="row g-0">
           <div class="col-md-4">
-            <img
-              src="images/Dialga.png"
-              class="img-fluid rounded-start"
-              alt="..."
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              data-aos-delay="60"
-              style="width: 100%; padding-top: 25px;"
-            />
+            <img src="images/Dialga.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+              data-aos-duration="1000" data-aos-delay="60" style="width: 100%; padding-top: 25px;" />
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Dialga</h5>
               <p class="card-text">
-                Dialga is a giant, blue dragon-like Pokémon that can control time. Dialga is considered to be a very powerful Pokémon, and is said to be able to control the space-time continuum. It is Palkia's rival and is a member of the Creation Trio, alongside Palkia and Giratina.
+                Dialga is a giant, blue dragon-like Pokémon that can control time. Dialga is considered to be a very
+                powerful Pokémon, and is said to be able to control the space-time continuum. It is Palkia's rival and
+                is a member of the Creation Trio, alongside Palkia and Giratina.
               </p>
               <p class="card-text Blue">Dragon</p>
             </div>
           </div>
         </div>
       </div>
-        
-        <div class="card mb-3" style="max-width: 578px">
+
+      <div class="card mb-3" style="max-width: 578px">
         <div class="row g-0">
           <div class="col-md-4">
-            <img
-              src="images/arceus-img.jpg"
-              class="img-fluid rounded-start"
-              alt="..."
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              data-aos-delay="60"
-              style="width: 100%; padding-top: 25px;"
-            />
+            <img src="images/arceus-img.jpg" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+              data-aos-duration="1000" data-aos-delay="60" style="width: 100%; padding-top: 25px;" />
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Arceus</h5>
               <p class="card-text">
-                Arceus is a Normal-type Mythical Pokémon introduced in Generation IV and is known as the creator of the Pokémon world and is the most powerful Pokémon in the Pokémon world, being able to change into any type.The best moveset for Arceus is Shadow Claw and Hyper Beam. The Max CP of Arceus is 3989
+                Arceus is a Normal-type Mythical Pokémon introduced in Generation IV and is known as the creator of the
+                Pokémon world and is the most powerful Pokémon in the Pokémon world, being able to change into any
+                type.The best moveset for Arceus is Shadow Claw and Hyper Beam. The Max CP of Arceus is 3989
               </p>
               <p class="card-text Blue">Mythical</p>
             </div>
@@ -903,26 +691,21 @@
         </div>
       </div>
 
-      
+
 
       <div class="card mb-3" style="max-width: 578px">
         <div class="row g-0">
           <div class="col-md-4">
-            <img
-              src="images/giratina.jpg"
-              class="img-fluid rounded-start"
-              alt="..."
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              data-aos-delay="60"
-              style="width: 100%; padding-top:25px;"
-            />
+            <img src="images/giratina.jpg" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+              data-aos-duration="1000" data-aos-delay="60" style="width: 100%; padding-top:25px;" />
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Giratina</h5>
               <p class="card-text">
-                Giratina is a Legendary Pokémon that is said to dwell in another dimension. It is a very large and powerful Pokémon, and is feared by many. It has two forms, an Altered Forme and a Origin Forme. Giratina is a very rare Pokémon, and is said to be very hard to catch.
+                Giratina is a Legendary Pokémon that is said to dwell in another dimension. It is a very large and
+                powerful Pokémon, and is feared by many. It has two forms, an Altered Forme and a Origin Forme. Giratina
+                is a very rare Pokémon, and is said to be very hard to catch.
               </p>
               <p class="card-text blue">Dragon</p>
             </div>
@@ -933,59 +716,76 @@
       <div class="card mb-3" style="max-width: 578px">
         <div class="row g-0">
           <div class="col-md-4">
-            <img
-              src="images/seeper.png"
-              class="img-fluid rounded-start"
-              alt="..."
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              data-aos-delay="60"
-              style="width: 100%"
-            />
+            <img src="images/seeper.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+              data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Seeper</h5>
               <p class="card-text">
-                Seeper is a small, seahorse-like Pokémon whose body is mainly light blue in colour. Only its belly and elongated round dorsal fin appear beige and have several black stripes. Seeper's body is relatively slender and ends in a spirally curled up tail fin.
+                Seeper is a small, seahorse-like Pokémon whose body is mainly light blue in colour. Only its belly and
+                elongated round dorsal fin appear beige and have several black stripes. Seeper's body is relatively
+                slender and ends in a spirally curled up tail fin.
               </p>
               <p class="card-text blue">Water</p>
             </div>
           </div>
         </div>
       </div>
-        <div class="card mb-3" style="max-width: 578px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="images/alolan-marowak.png"
-                class="img-fluid rounded-start"
-                alt="..."
-                data-aos="zoom-in"
-                data-aos-duration="1000"
-                data-aos-delay="60"
-                style="width: 100%"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Alolan Marowak</h5>
-                <p class="card-text">
-                  Alola Marowak is a Fire and. Ghost type Pokémon in Pokémon GO. It has a max CP of 2075, with the following stats in Pokémon GO: 144 ATK, 186 DEF and 155 STA. Alola Marowak's best moves in Pokémon GO are Fire Spin and Shadow Ball (9.34 DPS). Alola Marowak is vulnerable to Dark, Ghost, Ground, Rock and Water type moves.
-                </p>
-                <p class="card-text Ghost">Ghost</p>
-                <p class="card-text Fire">Fire</p>
-              </div>
+      <div class="card mb-3" style="max-width: 578px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/alolan-marowak.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+              data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Alolan Marowak</h5>
+              <p class="card-text">
+                Alola Marowak is a Fire and. Ghost type Pokémon in Pokémon GO. It has a max CP of 2075, with the
+                following stats in Pokémon GO: 144 ATK, 186 DEF and 155 STA. Alola Marowak's best moves in Pokémon GO
+                are Fire Spin and Shadow Ball (9.34 DPS). Alola Marowak is vulnerable to Dark, Ghost, Ground, Rock and
+                Water type moves.
+              </p>
+              <p class="card-text Ghost">Ghost</p>
+              <p class="card-text Fire">Fire</p>
             </div>
           </div>
         </div>
+      </div>
+      <div class="card mb-3" style="max-width: 578px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/ivysaur.png" class="img-fluid rounded-start" alt="..." data-aos="zoom-in"
+              data-aos-duration="1000" data-aos-delay="60" style="width: 100%" />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Alolan Marowak</h5>
+              <p class="card-text">
+                Ivysaur (Japanese: フシギソウ Fushigisou) 
+                is a dual-type Grass/Poison Pokémon, It has a flower bulb on its back, 
+                the weight of which has made it develop strong legs and hips. 
+                If the blossom gets too big, it can't stand on two legs alone. 
+                At a certain level, it evolves into Venusaur.
+              </p>
+              <p class="card-text Ghost">Grass</p>
+              <p class="card-text Fire">Poison</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
-    </section>
-    <section id="copy"><p class="co">© 2022 Sasaank</p></section>
-    <script>
-      AOS.init({ once: true });
-    </script>
-    <script src="app.js"></script>
-  </body>
+
+  </section>
+  <section id="copy">
+    <p class="co">© 2022 Sasaank</p>
+  </section>
+  <script>
+    AOS.init({ once: true });
+  </script>
+  <script src="app.js"></script>
+</body>
+
 </html>
