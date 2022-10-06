@@ -119,6 +119,14 @@ body {
   border-radius: 5px;
 }
 
+.psychic {
+  background-color: #f85888;
+  color: #fff;
+  width: 50%;
+  text-align: center;
+  border-radius: 5px;
+}
+
 #copy {
   padding-top: 5px;
 }
