@@ -135,14 +135,21 @@ body {
   text-align: center;
 }
 
+
+.electric {
+  background-color: #f979a0;
+
 .Ghost {
   background-color: midnightblue;
   color: white;
+
   width: 50%;
   border-radius: 5px;
   text-align: center;
 }
 
+
+=======
 .Fire {
   background-color: red;
   color: white;
@@ -150,3 +157,4 @@ body {
   border-radius: 5px;
   text-align: center;
 }
+
