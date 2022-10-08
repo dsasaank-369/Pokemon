@@ -2,6 +2,8 @@ body {
   /* height: 100vh; */
   margin: 0;
   overflow-x: hidden;
+  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 #main {
@@ -10,10 +12,10 @@ body {
   background-size: cover;
 }
 
-#charac {
+/* #charac {
   padding: 20px;
   background-color: #e3f2fd;
-}
+} */
 
 .info h1 {
   text-align: center;
@@ -149,4 +151,32 @@ body {
   width: 50%;
   border-radius: 5px;
   text-align: center;
+}
+
+#icon{
+  width: 30px;
+  cursor: pointer;
+}
+:root{
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+
+}
+
+.dark-theme{
+  --primary-color: #000106;
+  --secondary-color: #fff;
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+}
+
+.heading{
+  color: #07209c;
+}
+
+.backToTop{
+  padding-left: 5%;
 }
