@@ -150,3 +150,10 @@ body {
   border-radius: 5px;
   text-align: center;
 }
+.Ground{
+  background-color: green;
+  color: white;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
