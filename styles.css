@@ -10,6 +10,12 @@ body {
   background-size: cover;
 }
 
+.navbar-brand {
+  color: rgb(77, 133, 80);
+  font-family: "Arial", bold;
+  font-size: 40px;
+}
+
 #charac {
   padding: 20px;
   background-color: #e3f2fd;
@@ -89,7 +95,7 @@ body {
 }
 
 .light-blue {
-  background-color: lightblue;
+  background-color: rgb(36, 119, 146);
 
   width: 50%;
   border-radius: 5px;
