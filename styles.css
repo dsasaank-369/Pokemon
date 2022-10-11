@@ -190,3 +190,20 @@ body {
   border-radius: 5px;
   text-align: center;
 }
+
+.golden{
+  background-color: goldenrod ;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(24, 20, 11);
+  
+}
+.fly{
+  background-color: rgb(140, 206, 214) ;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  
+}
