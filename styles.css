@@ -119,6 +119,14 @@ body {
   text-align: center;
 }
 
+.skyblue {
+  background-color: #87CEEB;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
 .fighting {
   background-color: #c02038;
   width: 50%;
