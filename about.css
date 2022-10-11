@@ -13,11 +13,23 @@ body {
   );
 }
 
+.heading h1{
+  color: white;
+  font-family: "Arial", bold;
+  font-size: 30px;
+}
+
 .about {
   padding-top: 40vh;
   text-align: center;
   max-width: 60%;
   margin: 0 auto;
+}
+
+.about h1{
+  color: white;
+  font-family: "Arial", bold;
+  font-size: 30px;
 }
 
 .about p {
