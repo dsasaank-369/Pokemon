@@ -65,6 +65,22 @@ body {
   text-align: center;
 }
 
+.grass {
+  background-color: rgb(69, 207, 69);
+  color:white;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.poison {
+  background-color: purple;
+  color:white;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
 .normal {
   background-color: rgb(255, 154, 31);
   width: 50%;
@@ -150,8 +166,17 @@ body {
   border-radius: 5px;
   text-align: center;
 }
+
 .Ground{
   background-color: green;
+  color: white;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.fairy{
+  background-color: #EE99AC;
   color: white;
   width: 50%;
   border-radius: 5px;
