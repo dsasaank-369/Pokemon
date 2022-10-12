@@ -207,3 +207,10 @@ body {
   color: rgb(0, 0, 0);
   
 }
+
+.electric {
+  background-color: rgb(245, 245, 10);
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+}
