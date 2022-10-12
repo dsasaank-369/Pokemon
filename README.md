@@ -93,4 +93,4 @@ Examples-
 Congratulation! You've just created your first pull request, and if it's merged, you may see it by clicking the link above!
 
 If you did liked my repository or idea, please star the repository.
-Happy Learening :)
+Happy Learning :)
