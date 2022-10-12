@@ -1,0 +1,746 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway|Roboto:500" rel="stylesheet"> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Tribute page</title>
+</head>
+<body>
+
+    <main class="global d-flex fd-col" id="main">
+        <header class="header bgc-white d-flex jc-center ai-center fixed">
+            <div class="header__wrapper ai-center jc-fs d-flex fd-col">
+                        <div class="flex-wrapper ai-center jc-sb d-flex">
+                                <div class="header___logo">
+                                        <div class="logo__rect bgc-yellow d-flex jc-center ai-center">
+                                            <div class="logo__letter merri">T</div>
+                                        </div>
+                                    </div>
+                                    <input type="checkbox" name="state-toggler" class="hidden toggle" id="toggle">
+                                    <label class="nav__ham rel" for="toggle">
+                                        <div class="ham__line1 bgc-black abs"></div>
+                                        <div class="ham__line2 bgc-black abs"></div>
+                                        <div class="ham__line3 bgc-black abs"></div>
+                                    </label>
+                                    <nav class="nav d-flex jc-center ai-center fixed">
+                                            <ul class="nav__menu">
+                                                <li><a href="#intro">Presentation</a></li>
+                                                <li><a href="#concept-and-design">Concept and Design</a></li>
+                                                <li><a href="#appearances">Appareances</a></li>
+                                                <li><a href="#promotion-and-legacy">Promotion and legacy</a></li>
+                                            </ul>
+                                    </nav>
+                        </div>
+                       
+            </div>
+        </header>
+        <section class="banner bgc-black">
+            <div class="banner__content">
+                <div class="banner__headings" id="title">
+                    <h1 class="banner__heading banner__heading--white banner__heading--wrapped">
+                        Tribute presents ...
+                    </h1>
+                    <h2 class="banner__heading banner__heading--yellow robo">Pikachu</h2>
+                </div>
+                <div class="picture" id="img-div"><img src="https://upload.wikimedia.org/wikipedia/en/a/a6/Pok%C3%A9mon_Pikachu_art.png" alt="pikachu" id="image"> <div id="img-caption" class="hidden">pikachu</div></div>
+            </div>
+        </section>
+        <section class="css-image bgc-yellow d-flex jc-center ai-center">
+            <!-- Here will be a css image of pikachu -->
+            <div class="css-image__wrapper">
+                <div class="eyes d-flex jc-sb ai-center">
+                    <div class="eye1">
+                    </div>
+                    <div class="eye2">
+                        <div class="pupil"></div>
+                    </div>
+                </div>
+                <div class="nose"></div>
+                <div class="cheeks-and-mouth d-flex">
+                    <div class="cheek1"></div>
+                    <div class="mouth"></div>
+                    <div class="cheek2"></div>
+                </div>
+            </div>
+        </section>
+        <section class="articles bgc-black" id="tribute-info">
+            <div class="articles__wrapper">
+                <article class="intro yellow-border" id="intro" aria-labelledby="intro">
+                    <h2 id="intro" class="hidden">Pikachu's presentation</h2>
+                    <p>  <span class="micro-title">Introduction</span> Pikachu (Japanese: ピカチュウ Hepburn: Pikachū) (/ˈpiːkətʃuː/; [pikatɕɯː]) are a
+                            species of Pokémon, fictional creatures that appear in an assortment of video games,
+                            animated television shows and movies, trading card games, and comic books
+                            licensed by The Pokémon Company, a Japanese corporation.</p>
+                    <p>
+                            The Pikachu design was conceived by Atsuko Nishida and finalized by Ken
+                            Sugimori. Pikachu first appeared in Pokémon Red and Green in Japan, and later in
+                            the first internationally released Pokémon video games, Pokémon Red and Blue, for
+                            the original Game Boy.
+                    </p>
+                    <p>
+                            Like other species of Pokémon, Pikachu are often captured and groomed by humans
+                            to fight other Pokémon for sport. Pikachu are one of the most well-known varieties
+                            of Pokémon, largely because Pikachu is a central character in the Pokémon anime
+                            series. Pikachu is regarded as a major character of the Pokémon franchise as well as
+                            its mascot, and has become an icon of Japanese pop culture in recent years. It is also
+                            seen as one of the major mascots forN intendo.
+                    </p>
+                            
+                </article>
+                <article class="concept yellow-border" id="concept-and-design" aria-labelledby="co-des">
+                        <h2 id="co-des" class="hidden">Concept and Design</h2>
+                    <p> <span class="micro-title">Concept and Design</span>
+                            Developed by Game Freak and published by Nintendo, the Pokémon series began in Japan in 1996, and features several species of
+                            creatures called "Pokémon" that players, called "trainers", are encouraged to capture, train, and use to battle other players' Pokémon
+                            or interact with the game's world.[1][2] Pikachu was one of several different Pokémon designs conceived by Game Freak's character
+                            development team. Artist Atsuko Nishida is credited as the main person behind Pikachu's design,[3][4] which was later finalized by
+                            artist Ken Sugimori.[5][6] According to series producer Satoshi Tajiri, the idea of the name came from a mouse like animal called pika
+                            and then derived from a combination of two Japanese sounds: pika, a sound an electric spark makes, and chu, a sound a mouse
+                            makes.[7] Despite its name's origins, however, Nishida based Pikachu's generation 1 design, especially its cheeks, off of squirrels. [8]
+                            Developer Junichi Masuda noted Pikachu's name as one of the most difficult to create, due to an effort to make it appealing to both
+                            Japanese and American audiences.[9]
+                    </p>
+                    <p>
+                            Standing 1 ft 4 in (0.4m) tall, Pikachu were the first "Electric-type" Pokémon created, their design intended to revolve around the
+                            concept of electricity.[10] They appear as Pika-like creatures that have short, yellow fur with brown markings covering their backs
+                            and parts of their lightning bolt shaped tails. They have black-tipped, pointed ears and red circular pouches on their cheeks, which
+                            can spark with electricity.[11] In Pokémon Diamond and Pearl, gender differences were introduced; a female Pikachu now has an
+                            indent at the end of its tail, giving it a heart-shaped appearance. They attack primarily by projecting electricity from their bodies at
+                            their targets. Within the context of the franchise, a Pikachu can transform, or "evolve" into a Raichu when exposed to a
+                            "Thunderstone". In later titles an evolutionary predecessor was introduced named "Pichu", which evolves into a Pikachu after
+                            establishing a close friendship with its trainer.
+                    </p>
+                </article>
+                <article class="appearances yellow-border" id="appearances" aria-labelledby="app">
+                        <h2 id="app" class="hidden">Appearances</h2>
+                    <p> <span class="micro-title">Appearances</span>
+                            In the video games, Pikachu is a low-level Pokémon, which has appeared in all of the games except Black and White naturally
+                            without having to trade.[16] The game Pokémon Yellow features a Pikachu as the only available Starter Pokémon. Based on the
+                            Pikachu from the Pokémon anime, it refuses to stay in its Poké Ball, and instead follows the main character around on screen. The
+                            trainer can speak to it and it displays different reactions depending on how it is treated.[17] Pokémon Yellow followed the anime series
+                            closely, with Pikachu as a central character.[18]
+                            An event from April 1 to May 5, 2010 allowed players of Pokémon HeartGold and SoulSilver to access a route on the Pokéwalker
+                            which solely contained Pikachu which knew attacks that they were not normally compatible with, Surf and Fly.[19] Both of these
+                            attacks can be used outside battles as travel aids.
+                    </p>
+                    <p>
+                            The Pokémon anime series and films feature the adventures of Ash Ketchum and his Pikachu, traveling through the various regions
+                            of the Pokémon universe. They are accompanied by a group of alternating friends, includinMg isty, Brock, Tracey, May, Max, Dawn,
+                            Iris, Cilan, Bonnie, Serena, and Clemont.
+                    </p>
+                    <p>
+                            Pikachu is one of the main Pokémon used in many of the Pokémon manga series. In Pokémon Adventures, main characters Red and
+                            Yellow both train Pikachu, which create an egg thatG old hatches into a Pichu. Other series, including Magical Pokémon Journey and
+                            Getto Da Ze also feature Pikachu while other manga series, such as Electric Tale of Pikachu,[32] and Ash & Pikachu, feature the most
+                            well known Pikachu belonging to Ketchum in the anime series[3.2]
+                    </p>
+                    <p>An event from April 1 to May 5, 2010 allowed players of Pokémon HeartGold and SoulSilver to access a route on the Pokéwalker
+                            which solely contained Pikachu which knew attacks that they were not normally compatible with, Surf and Fly.[19] Both of these
+                            attacks can be used outside battles as travel aids.</p>
+                    <p>
+                            In the first episode, Ash Ketchum, a young boy from Pallet Town, turns 10 years old and is ready to acquire his first Pokémon.
+                            Hopeful to become a Pokémon Master, the night before he receives his starter Pokémon (either Squirtle, Charmander or Bulbasaur)
+                            he has a dream where he is catching a Pokémon and actually, while sleeping, physically breaks his alarm clock. Ash quickly runs to
+                            Professor Oak's lab, where he finds out all the starter Pokémon have been given away. Professor Oak tells Ash there is one more
+                            Pokémon, a male Pikachu. At first, Pikachu lagrely ignores Ash's requests, shocking him frequently and refusing to be confined to the
+                            conventional method of Pokémon transportation, aP oké Ball. However, Ash puts himself in danger to defend Pikachu from a flock of
+                            wild Spearow,[28] then rushes the electric mouse to a Pokémon Center. Through these demonstrations of respect and unconditional
+                            commitment to Pokémon, Pikachu warms up to Ash, and their friendship is formed. Howev,e hre still refuses to go into his Poké Ball.
+                            Soon after, Pikachu shows great power that sets him apart from Pokémon, and other Pikachu, which causes Team Rocket to
+                            constantly attempt to capture him in order to win favor from their boss, Giovanni.[29] Only once had Ash almost released Pikachu,
+                            and that was in the episode "Pikachu's Goodbye", because Ash thought Pikachu would be happier living in a colony of wild Pikachu,
+                            but Pikachu chose him instead.[30] Pikachu also has his very own segment in the first two seasons called "Pikachu's Jukebox", which
+                            included songs from 2.B.A. Master.
+                    </p>
+                </article>
+                <article class="promotion yellow-border" id="promotion-and-legacy" aria-labelledby="promo">
+                        <h2 id="promo" class="hidden">Promotion and Legacy</h2>
+                    <p><span class="micro-title">Promotion and Legacy</span>
+                            As the mascot of the franchise, Pikachu has made multiple appearances in various
+                            promotional events and merchandise. In 1998, then Topeka, Kansas Mayor Joan
+                            Wagnon renamed the town "Topikachu" for a day,[37] and a "got milk?"
+                            advertisement featured Pikachu on April 25, 2000.[38] A Pikachu balloon has been
+                            featured in the Macy's Thanksgiving Day Parade since 2001.[39] The original
+                            balloon was flown for the last time publicly at the Pokémon: Tenth Anniversary
+                            "Party of the Decade" on August 8, 2006 in Bryant Park in New York
+                            City,[40][41][42][43] and a new Pikachu balloon that chases a Poké Ball and has lightup
+                            cheeks debuted at the 2006 parade[.44] In the 2014 parade, a new Pikachu balloon
+                            was wearing a green scarf and holding a smaller Pikachu snowman[4.5]
+                    </p>
+                    <p>
+                            Pikachu has appeared several of times on The Simpsons. In the 2002 episode "Bart
+                            vs. Lisa vs. the Third Grade", Bart Simpson has a hallucination while taking a test in
+                            class and envisages his classmates as various television characters, one of which is
+                            Pikachu.[50] Maggie Simpson appeared as a Pikachu in a couch gag during the
+                            opening sequence of the 2003 episode "'Tis the Fifteenth Season".[51] The couch gag
+                            was used a second time for the 2004 episode "Fraudcast News".[52] In the 2010
+                            episode "Postcards from the Wedge", Bart is distracted from his homework by an
+                            episode of Pokémon. After watching Ash Ketchum talk to his Pikachu, he muses
+                            how the show has managed to stay fresh over the years[5. 3]
+                    </p>
+                    <p>
+                            During the first episode of the 11th season of Top Gear, presenter Richard
+                            Hammond compared an image of the Tata Nano to one of Pikachu, stating, "they've
+                            saved money on the styling 'cause they've just based it on this."[46] In the episode "Dual" of the third season of Heroes, Hiro
+                            Nakamura is nicknamed "Pikachu" by Daphne Millbrook, much to his chagrin. He is called this again by Tracy Strauss, after which
+                            [47][48]
+                            In other Pokémon media
+                            Promotion and legacy
+                            A Toyota Ist customized to resemble
+                            Pikachu.
+                            he excuses himself before punching her in the face.[47][48] A Pikachu spoof called
+                            Ling-Ling was a main character in the Comedy Central show Drawn Together.
+                    </p>
+                </article>
+                <footer class="articles__footer bgc-yellow">
+                    <p class="footer__content">
+                        More info about pika on his <a target="_blank" href="https://en.wikipedia.org/wiki/Pikachu" class="wiki-link rel" title="More info about Pikachu" id="tribute-link">wiki</a>
+                    </p>
+                </footer>
+            </div>
+        </section>
+        <footer class="global-footer bgc-white d-flex jc-sa ai-center">
+            <p class="global-footer__content">
+                Designed and <span class="hidable">coded</span> with <i class="icon-heart fas fa-heart"></i> by @B.Techwala
+            </p>
+            <div class="global-footer__icons">
+                <i class="icon-facebook fab fa-facebook"></i>
+                <i class="icon-twitter fab fa-twitter"></i>
+            </div>
+        </footer>
+    </main>
+    
+</body>
+</html>
+
+
+:root {
+  --yellow: #ffcc33;
+  --selection: #ffcc3354;
+  --white: #f5f5f5;
+  --black: #433a3b;
+  --red: #ff3334;
+  --header-height: 140px;
+  --transition-duration: 0.3s;
+  --transition--easing: cubic-bezier(0, 0, 0, 1.58);
+}
+::selection {
+  background: var(--selection);
+}
+::-moz-selection {
+  background: var(--selection);
+}
+::-webkit-selection {
+  background: var(--selection);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: raleway;
+  color: var(--white);
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+#img-div {
+  width: 250px;
+  margin: 0 auto;
+}
+
+/*UTILITIES*/
+
+.bgc-yellow {
+  background-color: var(--yellow);
+}
+.bgc-black {
+  background-color: var(--black);
+}
+.bgc-red {
+  background-color: var(--red);
+}
+.bgc-white {
+  background-color: var(--white);
+}
+.c-white {
+  color: var(--white);
+}
+.d-flex {
+  display: flex;
+}
+.jc-center {
+  justify-content: center;
+}
+.jc-fe {
+  justify-content: flex-end;
+}
+.ai-center {
+  align-items: center;
+}
+.ai-sa {
+  align-items: space-around;
+}
+.ai-sb {
+  align-items: space-between;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.jc-sa {
+  justify-content: space-around;
+}
+.fd-col {
+  flex-direction: column;
+}
+.abs {
+  position: absolute;
+}
+.rel {
+  position: relative;
+}
+.fixed {
+  position: fixed;
+}
+.hidden {
+  display: none;
+}
+.hidable {
+  display: var(--display, none);
+}
+.yellow-border {
+  border-left: 4px solid var(--yellow);
+}
+/*UTILITIES*/
+
+/*DBUG*/
+
+.debug-red {
+  background-color: var(--red);
+}
+.debug-yellow {
+  background-color: yellow;
+}
+
+/*HEADER*/
+
+.header {
+  height: var(--header-height);
+  width: 100vw;
+  z-index: 5;
+}
+.header__wrapper {
+  height: 100%;
+  width: var(--width, 100%);
+}
+
+.logo__rect {
+  height: 70px;
+  width: 70px;
+  margin-left: var(--margin, 13px);
+}
+.logo__letter {
+  font-size: 3rem;
+}
+.nav__ham {
+  width: 40px;
+  height: 40px;
+  margin-right: var(--margin, 13px);
+  transition: var(--transition-duration) var(--transition--easing);
+}
+.nav__ham:hover {
+  transform: rotate(-10deg);
+}
+[class^="ham__line"] {
+  height: 4px;
+  border-radius: 5px;
+  transition: var(--transition-duration) var(--transition--easing);
+}
+.ham__line1 {
+  width: 100%;
+}
+.ham__line2 {
+  width: 80%;
+  top: 12px;
+}
+.ham__line3 {
+  width: 60%;
+  top: 24px;
+}
+.flex-wrapper {
+  width: 100%;
+  margin-top: 20px;
+}
+.nav {
+  --yellow: #e9b413;
+  top: var(--header-height);
+  left: 0;
+  width: 100vw;
+  background-color: var(--yellow);
+  overflow: hidden;
+  transition: 600ms var(--transition--easing);
+}
+.nav__menu {
+  text-align: left;
+  margin-top: 50px;
+  transform: scale(0);
+  transition: 300ms var(--transition--easing) 0.4s;
+  opacity: 0;
+}
+.nav__menu li {
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  font-variant: all-small-caps;
+  list-style: none;
+}
+.nav__menu li a {
+  color: var(--white);
+  position: relative;
+}
+
+.nav__menu li a::before {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 2px;
+  background-color: var(--white);
+  width: 0%;
+  height: 3px;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+.nav__menu li:hover a::before {
+  width: 100%;
+}
+.toggle ~ .nav {
+  height: 0;
+}
+.toggle:checked ~ .nav {
+  height: calc(100vh - var(--header-height));
+}
+.toggle ~ .nav {
+  height: 0;
+}
+.toggle:checked ~ .nav__ham {
+  transform: rotate(0);
+}
+.toggle:checked ~ .nav {
+  height: calc(100vh - var(--header-height));
+}
+.toggle:checked ~ .nav .nav__menu {
+  transform: scale(1);
+  opacity: 1;
+}
+.toggle:checked ~ label .ham__line2 {
+  opacity: 0;
+}
+.toggle:checked ~ label .ham__line1 {
+  transform: rotate(45deg);
+  width: 100%;
+  top: 20px;
+}
+.toggle:checked ~ label .ham__line3 {
+  transform: rotate(-45deg);
+  width: 100%;
+  top: 20px;
+}
+/*BANNER*/
+
+.banner {
+  margin-top: var(--header-height);
+  height: var(--height, 450px);
+}
+.banner__heading {
+  font-variant: var(--variant, normal);
+  font-size: var(--f-size);
+  font-weight: var(--f-weight, normal);
+  background-color: var(--bg-color);
+  width: var(--width, 60%);
+  margin: 0 auto;
+  color: var(--color, --white);
+  margin-top: var(--mtop);
+}
+
+.banner__heading--white {
+  --f-size: 16px;
+  --bg-color: var(--yellow);
+  --mtop: 40px;
+  padding: 10px 15px;
+}
+.banner__heading--yellow {
+  --variant: all-small-caps;
+  --color: #ffcc33;
+  --f-size: 4rem;
+  --f-weigth: bold;
+  --mtop: 10px;
+  margin-bottom: 20px;
+}
+/*CSS IMAGE*/
+
+.css-image {
+  height: var(--height, 450px);
+}
+.css-image__wrapper {
+  width: 600px;
+  height: 50%;
+}
+.eyes {
+  width: var(--width, 65%);
+  height: 100px;
+  margin: 0 auto;
+}
+.eye1 {
+  width: var(--width, 100px);
+  height: var(--height, 50px);
+  border-radius: var(--radius, 50%);
+  border-top: 10px solid var(--black);
+}
+.eye2 {
+  --size: 80px;
+  width: var(--size);
+  height: var(--size);
+  background-color: var(--black);
+  border-radius: 50%;
+  position: relative;
+}
+.pupil {
+  position: absolute;
+  top: var(--top, 20px);
+  left: var(--left, 10px);
+  width: var(--width, 30px);
+  height: var(--height, 30px);
+  border-radius: 50%;
+  background-color: var(--white);
+}
+.nose {
+  width: var(--width, 30px);
+  height: var(--height, 20px);
+  background-color: var(--black);
+  margin: auto;
+  border-radius: 20%;
+}
+.cheeks-and-mouth {
+  width: var(--width, 92%);
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.cheek1,
+.cheek2 {
+  --red: #e9292980;
+  --size: 100px;
+  width: var(--size);
+  height: var(--size);
+  background-color: var(--red);
+  border-radius: 50%;
+}
+.mouth {
+  width: var(--width, 200px);
+  height: var(--height, 25px);
+  transform: translateY(50px);
+  border-bottom: 4px solid var(--black);
+  margin: 0 auto;
+  border-radius: 40%;
+}
+
+/*ARTICLES*/
+
+.articles {
+  text-align: left;
+  padding-top: 30px;
+}
+.articles__wrapper {
+  width: var(--width, 90%);
+  margin: 0 auto;
+}
+
+article {
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+article p {
+  margin-bottom: 15px;
+}
+.micro-title {
+  background: var(--yellow);
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: -14px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  display: inline-block;
+}
+.articles__footer {
+  padding: 15px 0;
+  text-align: center;
+  font-variant: all-small-caps;
+  font-size: 1.5rem;
+  margin-bottom: 70px;
+}
+/*WIKIPEDIA LINK*/
+
+.wiki-link {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 5px;
+}
+.wiki-link:hover::before {
+  bottom: -2px;
+}
+.wiki-link::before {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 2px;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 3px;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+.footer__content {
+  font-size: var(--f-size, 1rem);
+}
+/*FOOTER*/
+
+.global-footer {
+  height: 70px;
+}
+.global-footer__content {
+  color: var(--black);
+  font-size: var(--f-size, 12px);
+}
+
+.icon-twitter,
+.icon-facebook {
+  color: var(--black);
+  display: inline-block;
+}
+.icon-facebook {
+  margin-right: 5px;
+}
+.icon-heart {
+  width: 20px;
+  height: 20px;
+  font-size: 1rem;
+  color: var(--red);
+  animation: pulse 750ms ease-in infinite;
+}
+
+/*ANIMATIONS*/
+
+@keyframes pulse {
+  50% {
+    transform: scale(1.5);
+  }
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 700px) {
+  .banner {
+    --height: 530px;
+  }
+
+  .header__wrapper,
+  .articles__wrapper {
+    --width: 75%;
+  }
+
+  .banner__heading--white {
+    --width: 300px;
+  }
+  .global-footer__content {
+    --f-size: 0.8rem;
+  }
+  .banner__heading--white {
+    --f-size: 1.7rem;
+    padding: 20px 15px;
+  }
+  .banner__heading--yellow {
+    --f-size: 6rem;
+  }
+  .footer__content {
+    --f-size: 2rem;
+  }
+  .hidable {
+    --display: inline-block;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nav__ham,
+  .logo__rect {
+    --margin: 0px;
+  }
+  .banner {
+    --height: 380px;
+    position: relative;
+  }
+  .picture {
+    position: absolute;
+    bottom: 0;
+    right: 75px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .cheeks-and-mouth {
+    --width: 78%;
+  }
+  .cheek1,
+  .cheek2 {
+    --size: 60px;
+  }
+  .nose {
+    --width: 15px;
+    --height: 10px;
+  }
+  .pupil {
+    --top: 10px;
+    --left: 5px;
+    --width: 15px;
+    --height: 15px;
+  }
+  .eye1 {
+    --width: 60px;
+    --height: 40px;
+    --radius: 65%;
+  }
+  .eye2 {
+    --size: 45px;
+  }
+  .mouth {
+    --width: 140px;
+    --height: 20px;
+  }
+  .eyes {
+    --width: 63%;
+  }
+}
+.merri {
+  font-family: "Merriweather";
+}
+.robo {
+  font-family: "Roboto";
+}
+
+
