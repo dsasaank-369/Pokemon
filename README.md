@@ -33,7 +33,7 @@ To contribute in Hacktoberfest2022 , checkout the given link and win hactoberfes
 https://hacktoberfest.digitalocean.com/
 
 
-And That's It!
+And that's it!
 Follow these steps to make your very first pull request.
 
 # But what if i don't know how to add cards? :(
