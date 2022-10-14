@@ -1,0 +1,22 @@
+main {
+    padding: 30px;
+    text-align: center;
+    height: 100vh;
+}
+
+main h2 {
+    margin-bottom: 40px;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.highlight {
+    padding: 20px;
+    color: rgb(212, 122, 122);
+    font-size: bold;
+    font-size: 2rem;
+}
