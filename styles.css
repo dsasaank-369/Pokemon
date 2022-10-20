@@ -207,3 +207,14 @@ body {
   color: rgb(0, 0, 0);
   
 }
+
+
+.Bug{
+    background-color: rgb(163,
+      213,
+      142);
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
