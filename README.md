@@ -13,11 +13,13 @@ In its ninth year, Hacktoberfest is a month-long celebration of open source soft
 
 
 # Pokemon
+
 <img width="2295"  height="504" alt="series image" src="https://i0.wp.com/www.gamerfocus.co/wp-content/uploads/2019/06/pokemon_collage.jpg?resize=1000%2C600&ssl=1">
 
 There is no doubt that we spent the majority of our youth watching anime, particularly Pokemon; we have seen and experienced it all. With Hacktoberfest 2022 approaching and me being one of the first people as maintainer, I decided to make this repository, which is essentially a very basic web-page that allows the user to browse and upload their favourite pokemons.
 
 You can find all types characters on https://pokemon.gameinfo.io/
+
 # Contents of the Webpage
 
 1. index.html - Contains the content of the main/home page.
@@ -29,14 +31,14 @@ You can find all types characters on https://pokemon.gameinfo.io/
 Whether you are a rookie or a veteran, you can always offer something to a project. You may add your favourite character to the internet as a card in this project! Or perhaps you don't like the line you're reading right now and want to alter it. Sure! So why not?
 
 # How can you contribute?
-To contribute in Hacktoberfest2022 , checkout the given link and win hactoberfest t-shirt ...
+To contribute in Hacktoberfest2022, checkout the given link and win a hacktoberfest t-shirt ...
 https://hacktoberfest.digitalocean.com/
 
 
 And That's It!
 Follow these steps to make your very first Pull request.
 
-# But what if i don't know how to add cards? :(
+# But what if I don't know how to add cards? :(
 
 Everyone is not aware of every tool available in the world, no matter how simple or sophisticated it is. It's also not required to be familiar with every tool available. To add your own card, use the code below!
 
